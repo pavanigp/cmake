@@ -5,9 +5,9 @@
 
 int main()
 {
-int n1,n2,fac,rev;
-printf("enter two numbers:");
-scanf("%d %d",&n1,&n2);
+int n1=2,n2=3,fac,rev;
+//printf("enter two numbers:");
+//scanf("%d %d",&n1,&n2);
 int add=addition(n1,n2);
 printf("Addition :::%d\n",add);
 fac=factorial(add);
